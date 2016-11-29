@@ -3,4 +3,4 @@
 
 Результат view.vacancies.html
 
-MVC pattern & Jsoup 1.10.1
+Uses: MVC & strategy  patterns, Jsoup 1.10.1

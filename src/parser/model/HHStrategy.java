@@ -21,6 +21,9 @@ public class HHStrategy implements Strategy {
     private static final String URL_FORMAT = "https://hh.ru/search/vacancy?area=1002&text=java&page=%d";
 
 
+    public HHStrategy(String city) {
+        this.city = city;
+    }
 
     @Override
     public List<Vacancy> getVacancies() {

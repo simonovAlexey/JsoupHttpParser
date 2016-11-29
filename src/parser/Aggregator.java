@@ -12,13 +12,14 @@ import parser.view.HtmlView;
 public class Aggregator {
 
     public static void main(String[] args) {
-        Provider[] pr ={new Provider(new HHStrategy()),new Provider(new MoikrugStrategy("Минск"))};
+        Provider[] pr ={new Provider(new HHStrategy("Минск")), new Provider(new MoikrugStrategy("Минск"))};
         HtmlView view = new HtmlView();
         Model model = new Model(view,pr);
         Controller controller = new Controller(model);
-        view.setController(controller);
-        view.userCitySelectEmulationMethod();
 
+        view.setController(controller);
+
+        view.userCitySelectEmulationMethod();
 
     }
 }

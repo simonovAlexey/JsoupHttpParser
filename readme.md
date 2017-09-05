@@ -3,4 +3,4 @@
 
 Результат view.vacancies.html
 
-Use: MVC & strategy  patterns, Jsoup 1.10.1
+#### Use: MVC & strategy  pattern, Jsoup 1.10.1
